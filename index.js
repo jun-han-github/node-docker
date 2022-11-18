@@ -55,7 +55,7 @@ app.use(session({
 app.use(express.json());
 
 app.get('/api/v1', (req, res) => {
-    res.send('<h2>Hi there, it\'s really syncing... We are on prod!</h2>');
+    res.send('<h2>Hi there, it\'s really syncing... We are automating on prod!</h2>');
     console.log('yeah it ran');
 });
 
